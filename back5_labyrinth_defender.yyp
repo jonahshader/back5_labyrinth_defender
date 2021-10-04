@@ -1,6 +1,6 @@
 {
   "resources": [
-    {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":0,},
+    {"id":{"name":"rm_test","path":"rooms/rm_test/rm_test.yy",},"order":0,},
   ],
   "Options": [
     {"name":"Main","path":"options/main/options_main.yy",},
@@ -15,7 +15,7 @@
     "children": [],
   },
   "RoomOrderNodes": [
-    {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"roomId":{"name":"rm_test","path":"rooms/rm_test/rm_test.yy",},},
   ],
   "Folders": [
     {"folderPath":"folders/Sprites.yy","order":1,"resourceVersion":"1.0","name":"Sprites","tags":[],"resourceType":"GMFolder",},
@@ -32,6 +32,14 @@
     {"folderPath":"folders/Animation Curves.yy","order":12,"resourceVersion":"1.0","name":"Animation Curves","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Notes.yy","order":13,"resourceVersion":"1.0","name":"Notes","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Extensions.yy","order":14,"resourceVersion":"1.0","name":"Extensions","tags":[],"resourceType":"GMFolder",},
+    {"folderPath":"folders/Objects/game/usables.yy","order":1,"resourceVersion":"1.0","name":"usables","tags":[],"resourceType":"GMFolder",},
+    {"folderPath":"folders/Objects/game/placeables.yy","order":0,"resourceVersion":"1.0","name":"placeables","tags":[],"resourceType":"GMFolder",},
+    {"folderPath":"folders/Objects/game.yy","order":3,"resourceVersion":"1.0","name":"game","tags":[],"resourceType":"GMFolder",},
+    {"folderPath":"folders/Objects/ui.yy","order":4,"resourceVersion":"1.0","name":"ui","tags":[],"resourceType":"GMFolder",},
+    {"folderPath":"folders/Sprites/game.yy","order":1,"resourceVersion":"1.0","name":"game","tags":[],"resourceType":"GMFolder",},
+    {"folderPath":"folders/Sprites/game/placeables.yy","order":1,"resourceVersion":"1.0","name":"placeables","tags":[],"resourceType":"GMFolder",},
+    {"folderPath":"folders/Sprites/game/usables.yy","order":2,"resourceVersion":"1.0","name":"usables","tags":[],"resourceType":"GMFolder",},
+    {"folderPath":"folders/Sprites/ui.yy","order":2,"resourceVersion":"1.0","name":"ui","tags":[],"resourceType":"GMFolder",},
   ],
   "AudioGroups": [
     {"targets":-1,"resourceVersion":"1.3","name":"audiogroup_default","resourceType":"GMAudioGroup",},
