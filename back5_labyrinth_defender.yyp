@@ -1,10 +1,13 @@
 {
   "resources": [
     {"id":{"name":"spr_player","path":"sprites/spr_player/spr_player.yy",},"order":2,},
+    {"id":{"name":"scr_give_player_item","path":"scripts/scr_give_player_item/scr_give_player_item.yy",},"order":0,},
     {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},"order":2,},
+    {"id":{"name":"obj_base_usable","path":"objects/obj_base_usable/obj_base_usable.yy",},"order":0,},
     {"id":{"name":"spr_wall","path":"sprites/spr_wall/spr_wall.yy",},"order":3,},
     {"id":{"name":"obj_wall","path":"objects/obj_wall/obj_wall.yy",},"order":5,},
     {"id":{"name":"rm_layout","path":"rooms/rm_layout/rm_layout.yy",},"order":1,},
+    {"id":{"name":"scr_remove_player_item","path":"scripts/scr_remove_player_item/scr_remove_player_item.yy",},"order":1,},
     {"id":{"name":"rm_test","path":"rooms/rm_test/rm_test.yy",},"order":0,},
   ],
   "Options": [
