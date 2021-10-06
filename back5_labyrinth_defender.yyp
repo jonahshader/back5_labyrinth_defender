@@ -10,7 +10,6 @@
     {"id":{"name":"obj_wall","path":"objects/obj_wall/obj_wall.yy",},"order":5,},
     {"id":{"name":"rm_level","path":"rooms/rm_level/rm_level.yy",},"order":1,},
     {"id":{"name":"obj_bullet","path":"objects/obj_bullet/obj_bullet.yy",},"order":0,},
-    {"id":{"name":"rm_layout","path":"rooms/rm_layout/rm_layout.yy",},"order":1,},
     {"id":{"name":"obj_pistol","path":"objects/obj_pistol/obj_pistol.yy",},"order":1,},
     {"id":{"name":"spr_bullet","path":"sprites/spr_bullet/spr_bullet.yy",},"order":0,},
     {"id":{"name":"scr_remove_player_item","path":"scripts/scr_remove_player_item/scr_remove_player_item.yy",},"order":1,},
