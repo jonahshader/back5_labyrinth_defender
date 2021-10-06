@@ -2,10 +2,10 @@
 /// @DnDVersion : 1
 /// @DnDHash : 02B6CD02
 /// @DnDComment : // Script assets have changed for v2.3.0 see$(13_10)// https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
-/// @DnDArgument : "funcName" "scr_give_player_item"
+/// @DnDArgument : "funcName" "give_player_item"
 /// @DnDArgument : "arg" "item"
 /// @DnDArgument : "static" "1"
-static scr_give_player_item = function(item) 
+static give_player_item = function(item) 
 {
 	/// @DnDAction : YoYo Games.Common.Execute_Code
 	/// @DnDVersion : 1
