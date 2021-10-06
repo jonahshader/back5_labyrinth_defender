@@ -6,6 +6,7 @@
     {"id":{"name":"obj_base_usable","path":"objects/obj_base_usable/obj_base_usable.yy",},"order":0,},
     {"id":{"name":"spr_wall","path":"sprites/spr_wall/spr_wall.yy",},"order":3,},
     {"id":{"name":"spr_pistol","path":"sprites/spr_pistol/spr_pistol.yy",},"order":0,},
+    {"id":{"name":"obj_placeable","path":"objects/obj_placeable/obj_placeable.yy",},"order":0,},
     {"id":{"name":"fnt_body","path":"fonts/fnt_body/fnt_body.yy",},"order":0,},
     {"id":{"name":"obj_wall","path":"objects/obj_wall/obj_wall.yy",},"order":5,},
     {"id":{"name":"rm_level","path":"rooms/rm_level/rm_level.yy",},"order":1,},
