@@ -6,5 +6,5 @@ if (currently_using) {
 	draw_set_halign(fa_left);
 	draw_set_valign(fa_bottom);
 
-	draw_text(10, room_height - 10, string("Ammo: ") + string(ammo));
+	draw_text(10, view_hport[0] - 10, string("Ammo: ") + string(ammo));
 }
