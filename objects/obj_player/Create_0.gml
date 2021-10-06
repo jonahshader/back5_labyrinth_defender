@@ -33,5 +33,14 @@ health_current = BASE_HEALTH * health_multiplier;
 /// @DnDAction : YoYo Games.Common.Variable
 /// @DnDVersion : 1
 /// @DnDHash : 69F2FA5D
+/// @DnDInput : 2
 /// @DnDArgument : "var" "look_dir"
+/// @DnDArgument : "var_1" "item_holding_index"
 look_dir = 0;
+item_holding_index = 0;
+
+/// @DnDAction : YoYo Games.Common.Execute_Code
+/// @DnDVersion : 1
+/// @DnDHash : 111FB1B4
+/// @DnDArgument : "code" "inventory = [];"
+inventory = [];
