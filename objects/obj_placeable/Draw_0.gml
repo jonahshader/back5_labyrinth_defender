@@ -6,8 +6,8 @@ event_inherited();
 /// @DnDAction : YoYo Games.Common.If_Expression
 /// @DnDVersion : 1
 /// @DnDHash : 64EE8C10
-/// @DnDArgument : "expr" "object_index_to_place != -1 && ammo > 0 && currently_using"
-if(object_index_to_place != -1 && ammo > 0 && currently_using)
+/// @DnDArgument : "expr" "object_index_to_place != -1 && ammo > 0 && currently_using && valid_placement"
+if(object_index_to_place != -1 && ammo > 0 && currently_using && valid_placement)
 {
 	/// @DnDAction : YoYo Games.Common.Variable
 	/// @DnDVersion : 1

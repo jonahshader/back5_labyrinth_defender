@@ -1,8 +1,8 @@
 /// @DnDAction : YoYo Games.Common.If_Expression
 /// @DnDVersion : 1
 /// @DnDHash : 5583994B
-/// @DnDArgument : "expr" "currently_using && ammo > 0 && object_index_to_place != -1"
-if(currently_using && ammo > 0 && object_index_to_place != -1)
+/// @DnDArgument : "expr" "currently_using && ammo > 0 && object_index_to_place != -1 && valid_placement"
+if(currently_using && ammo > 0 && object_index_to_place != -1 && valid_placement)
 {
 	/// @DnDAction : YoYo Games.Instances.Create_Instance
 	/// @DnDVersion : 1
