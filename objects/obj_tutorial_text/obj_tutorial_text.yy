@@ -31,7 +31,7 @@
     "path": "folders/Objects/ui.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_textbox",
+  "name": "obj_tutorial_text",
   "tags": [],
   "resourceType": "GMObject",
 }
