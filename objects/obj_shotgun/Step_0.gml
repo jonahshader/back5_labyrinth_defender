@@ -6,7 +6,7 @@ if (currently_using) {
 	if (clip_reload_timer > 0) {
 		clip_reload_timer--;
 		if (clip_reload_timer == 0) {
-			var ammoNeeded = CLIP_SIZE - current_clip;
+			var ammoNeeded = clip_size - current_clip;
 			if (ammo >= ammoNeeded) {
 				current_clip += ammoNeeded;
 				ammo -= ammoNeeded;
@@ -20,5 +20,5 @@ if (currently_using) {
 	x = obj_player.x + cos(obj_player.look_dir * pi / 180) * hold_radius;
 	y = obj_player.y + -sin(obj_player.look_dir * pi / 180) * hold_radius;
 	// change current subframe base on clip
-	image_index = CLIP_SIZE - current_clip;
+	image_index = current_clip;
 }
