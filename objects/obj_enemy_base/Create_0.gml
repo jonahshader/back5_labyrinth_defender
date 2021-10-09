@@ -7,5 +7,6 @@ react = 0;
 /// @DnDAction : YoYo Games.Common.Execute_Code
 /// @DnDVersion : 1
 /// @DnDHash : 08BF1CDE
-/// @DnDArgument : "code" "path = path_add();"
+/// @DnDArgument : "code" "path = path_add();$(13_10)cooldown = 0;"
 path = path_add();
+cooldown = 0;
