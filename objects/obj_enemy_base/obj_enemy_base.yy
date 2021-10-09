@@ -3,7 +3,7 @@
     "name": "spr_enemy_temp",
     "path": "sprites/spr_enemy_temp/spr_enemy_temp.yy",
   },
-  "solid": true,
+  "solid": false,
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,
