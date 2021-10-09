@@ -11,7 +11,9 @@
     {"id":{"name":"spr_ghost","path":"sprites/spr_ghost/spr_ghost.yy",},"order":0,},
     {"id":{"name":"obj_tutorial_text","path":"objects/obj_tutorial_text/obj_tutorial_text.yy",},"order":0,},
     {"id":{"name":"obj_placeable","path":"objects/obj_placeable/obj_placeable.yy",},"order":0,},
+    {"id":{"name":"spr_shotgun","path":"sprites/spr_shotgun/spr_shotgun.yy",},"order":1,},
     {"id":{"name":"fnt_body","path":"fonts/fnt_body/fnt_body.yy",},"order":0,},
+    {"id":{"name":"obj_shotgun","path":"objects/obj_shotgun/obj_shotgun.yy",},"order":2,},
     {"id":{"name":"obj_wall","path":"objects/obj_wall/obj_wall.yy",},"order":5,},
     {"id":{"name":"spr_textbox","path":"sprites/spr_textbox/spr_textbox.yy",},"order":4,},
     {"id":{"name":"rm_level","path":"rooms/rm_level/rm_level.yy",},"order":1,},
@@ -35,9 +37,9 @@
     "children": [],
   },
   "RoomOrderNodes": [
+    {"roomId":{"name":"rm_test","path":"rooms/rm_test/rm_test.yy",},},
     {"roomId":{"name":"rm_tutorial","path":"rooms/rm_tutorial/rm_tutorial.yy",},},
     {"roomId":{"name":"rm_level","path":"rooms/rm_level/rm_level.yy",},},
-    {"roomId":{"name":"rm_test","path":"rooms/rm_test/rm_test.yy",},},
   ],
   "Folders": [
     {"folderPath":"folders/Sprites.yy","order":1,"resourceVersion":"1.0","name":"Sprites","tags":[],"resourceType":"GMFolder",},
