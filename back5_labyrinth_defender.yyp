@@ -3,6 +3,8 @@
     {"id":{"name":"spr_player","path":"sprites/spr_player/spr_player.yy",},"order":2,},
     {"id":{"name":"spr_turret","path":"sprites/spr_turret/spr_turret.yy",},"order":1,},
     {"id":{"name":"scr_give_player_item","path":"scripts/scr_give_player_item/scr_give_player_item.yy",},"order":0,},
+    {"id":{"name":"obj_en_mosquito","path":"objects/obj_en_mosquito/obj_en_mosquito.yy",},"order":6,},
+    {"id":{"name":"spr_en_mosquito","path":"sprites/spr_en_mosquito/spr_en_mosquito.yy",},"order":4,},
     {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},"order":2,},
     {"id":{"name":"obj_base_usable","path":"objects/obj_base_usable/obj_base_usable.yy",},"order":0,},
     {"id":{"name":"obj_turret_pistol","path":"objects/obj_turret_pistol/obj_turret_pistol.yy",},"order":2,},
@@ -30,8 +32,8 @@
     "children": [],
   },
   "RoomOrderNodes": [
-    {"roomId":{"name":"rm_level","path":"rooms/rm_level/rm_level.yy",},},
     {"roomId":{"name":"rm_test","path":"rooms/rm_test/rm_test.yy",},},
+    {"roomId":{"name":"rm_level","path":"rooms/rm_level/rm_level.yy",},},
   ],
   "Folders": [
     {"folderPath":"folders/Sprites.yy","order":1,"resourceVersion":"1.0","name":"Sprites","tags":[],"resourceType":"GMFolder",},

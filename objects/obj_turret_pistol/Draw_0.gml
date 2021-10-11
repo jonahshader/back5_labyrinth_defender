@@ -1,9 +1,10 @@
 draw_self();
-draw_circle(x,y, range, true );
+draw_circle(x,y,range,true);
 
-var en = instance_nearest(x,y)
+
+var en = instance_nearest(x,y,obj_en_mosquito);
 if(en != noone){
-	if(point_distance(x, y, en.x,en.y) <= range){
+	if(point_distance(x, y,en.x,en.y) <= range){
 		
 		if(!shooting){
 			alarm[0] = 1;
@@ -12,7 +13,7 @@ if(en != noone){
 		}
 		
 		objectToShoot = en;
-		draw_line(x,y,en.x,en.y);
+		//draw_line(x,y,en.x,en.y);
 	}else{
 		shooting = false;
 		objectToShoot = noone;
