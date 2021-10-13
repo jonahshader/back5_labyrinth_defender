@@ -1,6 +1,6 @@
 // draw inventory. ammo count? is that gonna be baked in to the gun sprites like ruar suggested?
 var inventory_size = array_length(inventory);
-var spacing = 32;
+var spacing = 64;
 var left_padding = 32;
 var start = (view_hport[0] / 2) - spacing * (inventory_size / 2);
 
