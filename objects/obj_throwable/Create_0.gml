@@ -8,7 +8,7 @@ event_inherited();
 /// @DnDHash : 2FFA3466
 /// @DnDInput : 4
 /// @DnDArgument : "expr" "20"
-/// @DnDArgument : "expr_2" "5"
+/// @DnDArgument : "expr_2" "10"
 /// @DnDArgument : "expr_3" "42"
 /// @DnDArgument : "var" "COOLDOWN_TIME"
 /// @DnDArgument : "var_1" "cooldown_timer"
@@ -16,5 +16,5 @@ event_inherited();
 /// @DnDArgument : "var_3" "hold_radius"
 COOLDOWN_TIME = 20;
 cooldown_timer = 0;
-THROW_VELOCITY = 5;
+THROW_VELOCITY = 10;
 hold_radius = 42;
