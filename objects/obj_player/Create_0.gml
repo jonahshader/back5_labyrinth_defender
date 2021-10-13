@@ -26,9 +26,12 @@ health_multiplier = 1;
 /// @DnDAction : YoYo Games.Common.Variable
 /// @DnDVersion : 1
 /// @DnDHash : 2E071DD0
+/// @DnDInput : 2
 /// @DnDArgument : "expr" "BASE_HEALTH * health_multiplier"
 /// @DnDArgument : "var" "health_current"
+/// @DnDArgument : "var_1" "points_current"
 health_current = BASE_HEALTH * health_multiplier;
+points_current = 0;
 
 /// @DnDAction : YoYo Games.Common.Variable
 /// @DnDVersion : 1
@@ -44,3 +47,10 @@ item_holding_index = 0;
 /// @DnDHash : 111FB1B4
 /// @DnDArgument : "code" "inventory = [];"
 inventory = [];
+
+/// @DnDAction : YoYo Games.Common.Set_Global
+/// @DnDVersion : 1
+/// @DnDHash : 078BBFBB
+/// @DnDArgument : "value" "1"
+/// @DnDArgument : "var" "difficulty_scalar"
+global.difficulty_scalar = 1;
