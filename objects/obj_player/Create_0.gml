@@ -51,6 +51,9 @@ inventory = [];
 /// @DnDAction : YoYo Games.Common.Set_Global
 /// @DnDVersion : 1
 /// @DnDHash : 078BBFBB
+/// @DnDInput : 2
 /// @DnDArgument : "value" "1"
 /// @DnDArgument : "var" "difficulty_scalar"
+/// @DnDArgument : "var_1" "current_wave"
 global.difficulty_scalar = 1;
+global.current_wave = 0;
