@@ -2,6 +2,7 @@
   "resources": [
     {"id":{"name":"fnt_heading","path":"fonts/fnt_heading/fnt_heading.yy",},"order":2,},
     {"id":{"name":"obj_explosion","path":"objects/obj_explosion/obj_explosion.yy",},"order":0,},
+    {"id":{"name":"spr_machine_gun","path":"sprites/spr_machine_gun/spr_machine_gun.yy",},"order":3,},
     {"id":{"name":"spr_player","path":"sprites/spr_player/spr_player.yy",},"order":2,},
     {"id":{"name":"spr_turret","path":"sprites/spr_turret/spr_turret.yy",},"order":1,},
     {"id":{"name":"obj_thrown","path":"objects/obj_thrown/obj_thrown.yy",},"order":1,},
@@ -37,6 +38,7 @@
     {"id":{"name":"scr_remove_player_item","path":"scripts/scr_remove_player_item/scr_remove_player_item.yy",},"order":1,},
     {"id":{"name":"rm_test","path":"rooms/rm_test/rm_test.yy",},"order":0,},
     {"id":{"name":"obj_enemy_base","path":"objects/obj_enemy_base/obj_enemy_base.yy",},"order":0,},
+    {"id":{"name":"obj_machine_gun","path":"objects/obj_machine_gun/obj_machine_gun.yy",},"order":4,},
     {"id":{"name":"spr_enemy_temp","path":"sprites/spr_enemy_temp/spr_enemy_temp.yy",},"order":4,},
     {"id":{"name":"obj_enemy_gunner","path":"objects/obj_enemy_gunner/obj_enemy_gunner.yy",},"order":1,},
   ],
