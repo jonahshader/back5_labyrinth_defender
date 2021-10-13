@@ -28,8 +28,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "usables",
-    "path": "folders/Objects/game/usables.yy",
+    "name": "placeables",
+    "path": "folders/Objects/game/placeables.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_turret_pistol",

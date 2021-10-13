@@ -2,7 +2,7 @@ draw_self();
 draw_circle(x,y,range,true);
 
 
-var en = instance_nearest(x,y,obj_en_mosquito);
+var en = instance_nearest(x,y,obj_enemy_base);
 if(en != noone){
 	if(point_distance(x, y,en.x,en.y) <= range){
 		
