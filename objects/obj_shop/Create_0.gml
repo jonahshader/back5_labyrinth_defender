@@ -9,4 +9,4 @@ available = [false,      true,        true,       true,            true,        
 ref =       [noone,      noone,       noone,      noone,           noone,                noone,             noone,        noone];
 wall_only = [false,      false,       false,      false,           false,                true,              false,        false];
 floor_only =[false,      false,       false,      false,           false,                false,              true,        false];
-center_offset = [false,      false,       false,      false,           false,                false,              false,        false];
+center_offset = [false,      false,       false,      false,           false,                true,              true,        false];

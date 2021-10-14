@@ -28,10 +28,10 @@ if(object_index_to_place != -1)
 		/// @DnDVersion : 1
 		/// @DnDHash : 75430FAB
 		/// @DnDParent : 64EE8C10
-		/// @DnDArgument : "x" "x_place"
-		/// @DnDArgument : "y" "y_place"
+		/// @DnDArgument : "x" "x_place "
+		/// @DnDArgument : "y" "y_place "
 		/// @DnDArgument : "alpha" "cos(lifetime * pi/30.0) * .25 + .5"
 		/// @DnDArgument : "sprite" "object_get_sprite(object_index_to_place)"
-		draw_sprite_ext(object_get_sprite(object_index_to_place), 0, x_place, y_place, 1, 1, 0, $FFFFFF & $ffffff, cos(lifetime * pi/30.0) * .25 + .5);
+		draw_sprite_ext(object_get_sprite(object_index_to_place), 0, x_place , y_place , 1, 1, 0, $FFFFFF & $ffffff, cos(lifetime * pi/30.0) * .25 + .5);
 	}
 }
