@@ -1,4 +1,5 @@
-/// @DnDAction : YoYo Games.Instances.Destroy_Instance
+/// @DnDAction : YoYo Games.Common.Execute_Code
 /// @DnDVersion : 1
-/// @DnDHash : 62C56207
-instance_destroy();
+/// @DnDHash : 1AD3B3E9
+/// @DnDArgument : "code" "room_goto(rm_level);"
+room_goto(rm_level);
