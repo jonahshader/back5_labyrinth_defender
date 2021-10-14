@@ -1,0 +1,1 @@
+timer = TIMER_MAX;
