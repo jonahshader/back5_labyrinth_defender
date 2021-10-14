@@ -34,13 +34,20 @@ draw_set_alpha(l53525730_0 / $ff);
 /// @DnDAction : YoYo Games.Common.Execute_Code
 /// @DnDVersion : 1
 /// @DnDHash : 70E4917C
-/// @DnDArgument : "code" "//draw text$(13_10)draw_set_font(fnt_heading);$(13_10)$(13_10)draw_text(view_wport[0]/2, (view_hport[0]/2) - 30, "You died.");$(13_10)draw_text(view_wport[0]/2, (view_hport[0]/2), "You made it to wave " + string(global.current_wave));$(13_10)draw_text(view_wport[0]/2, (view_hport[0]/2) + 30, "Press any key to restart");$(13_10)"
+/// @DnDArgument : "code" "//draw text$(13_10)draw_set_font(fnt_heading);$(13_10)$(13_10)draw_text(view_wport[0]/2, (view_hport[0]/2) - 90, "You died.");$(13_10)if (room == rm_tutorial) {$(13_10)	draw_text(view_wport[0]/2, (view_hport[0]/2) - 60, "Lol you died in the tutorial");$(13_10)} else {$(13_10)	draw_text(view_wport[0]/2, (view_hport[0]/2), "You made it to wave " + string(global.current_wave));$(13_10)	draw_text(view_wport[0]/2, (view_hport[0]/2) - 60, "Press any key to restart");$(13_10)	draw_text(view_wport[0]/2, (view_hport[0]/2) - 30, "Tip: Press F to open the shop");$(13_10)	draw_text(view_wport[0]/2, (view_hport[0]/2) + 0, "In the shop, left click to purchase and right click to buy ammo");$(13_10)	draw_text(view_wport[0]/2, (view_hport[0]/2) + 30, "Kill enemies to get points to spend in the shop!");$(13_10)}$(13_10)$(13_10)"
 //draw text
 draw_set_font(fnt_heading);
 
-draw_text(view_wport[0]/2, (view_hport[0]/2) - 30, "You died.");
-draw_text(view_wport[0]/2, (view_hport[0]/2), "You made it to wave " + string(global.current_wave));
-draw_text(view_wport[0]/2, (view_hport[0]/2) + 30, "Press any key to restart");
+draw_text(view_wport[0]/2, (view_hport[0]/2) - 90, "You died.");
+if (room == rm_tutorial) {
+	draw_text(view_wport[0]/2, (view_hport[0]/2) - 60, "Lol you died in the tutorial");
+} else {
+	draw_text(view_wport[0]/2, (view_hport[0]/2), "You made it to wave " + string(global.current_wave));
+	draw_text(view_wport[0]/2, (view_hport[0]/2) - 60, "Press any key to restart");
+	draw_text(view_wport[0]/2, (view_hport[0]/2) - 30, "Tip: Press F to open the shop");
+	draw_text(view_wport[0]/2, (view_hport[0]/2) + 0, "In the shop, left click to purchase and right click to buy ammo");
+	draw_text(view_wport[0]/2, (view_hport[0]/2) + 30, "Kill enemies to get points to spend in the shop!");
+}
 
 /// @DnDAction : YoYo Games.Drawing.Set_Color
 /// @DnDVersion : 1

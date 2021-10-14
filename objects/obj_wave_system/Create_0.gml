@@ -14,3 +14,8 @@ waves = [
 ];
 
 wave_start_timer = WAVE_COOLDOWN;
+
+/// @DnDAction : YoYo Games.Audio.Stop_All_Audio
+/// @DnDVersion : 1
+/// @DnDHash : 47C3987A
+audio_stop_all();

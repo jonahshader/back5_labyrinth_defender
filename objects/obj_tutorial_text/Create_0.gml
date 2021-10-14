@@ -45,6 +45,11 @@ text = ["This is the tutorial of our game. We hope you have an great time!",
 boxWidth = sprite_get_width(spr_textbox);
 stringHeight = string_height(array_get(text, 0));
 
+/// @DnDAction : YoYo Games.Audio.Stop_All_Audio
+/// @DnDVersion : 1
+/// @DnDHash : 290A243D
+audio_stop_all();
+
 /// @DnDAction : YoYo Games.Audio.Play_Audio
 /// @DnDVersion : 1
 /// @DnDHash : 68A6F293
