@@ -30,7 +30,7 @@ if (spawn_timer > 0) {
 			else if (runner_q > 0) {to_spawn = obj_enemy_base; runner_q--;}
 			else if (gunner_q > 0) {to_spawn = obj_enemy_gunner; gunner_q--;}
 			else if (tank_q > 0) {to_spawn = obj_enemy_base; tank_q--;}
-			else to_spawn = obj_enemy_base; bomber_q--;
+			else if (bomber_q > 0) {to_spawn = obj_enemy_base; bomber_q--;}
 		}
 		
 		instance_create_layer(x, y, layer, to_spawn);	

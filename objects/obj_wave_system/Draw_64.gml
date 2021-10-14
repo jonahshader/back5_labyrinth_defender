@@ -16,7 +16,7 @@ draw_set_valign(fa_middle);
 /// @DnDAction : YoYo Games.Drawing.Draw_Value
 /// @DnDVersion : 1
 /// @DnDHash : 67FB15D2
-/// @DnDArgument : "x" "view_hport[0]/2"
-/// @DnDArgument : "y" "view_vport[0]/3"
+/// @DnDArgument : "x" "view_wport[0]/2"
+/// @DnDArgument : "y" "view_hport[0]/3"
 /// @DnDArgument : "caption" ""Wave  " + string(global.current_wave+1) + " starting in " + string(wave_start_timer div 60) + " seconds.""
-draw_text(view_hport[0]/2, view_vport[0]/3, string("Wave  " + string(global.current_wave+1) + " starting in " + string(wave_start_timer div 60) + " seconds.") + "");
+draw_text(view_wport[0]/2, view_hport[0]/3, string("Wave  " + string(global.current_wave+1) + " starting in " + string(wave_start_timer div 60) + " seconds.") + "");
