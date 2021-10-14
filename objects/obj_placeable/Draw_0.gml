@@ -13,9 +13,9 @@ if(object_index_to_place != -1)
 	/// @DnDVersion : 1
 	/// @DnDHash : 28A06E6A
 	/// @DnDParent : 6C3FB269
-	/// @DnDArgument : "expr" "object_index_to_place.sprite_index"
+	/// @DnDArgument : "expr" "object_get_sprite(object_index_to_place)"
 	/// @DnDArgument : "var" "sprite_index"
-	sprite_index = object_index_to_place.sprite_index;
+	sprite_index = object_get_sprite(object_index_to_place);
 
 	/// @DnDAction : YoYo Games.Common.If_Expression
 	/// @DnDVersion : 1
