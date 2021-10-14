@@ -1,6 +1,13 @@
 var left_right = (keyboard_check(ord("A")) ? -1 : 0) + (keyboard_check(ord("D")) ? 1 : 0);
 var up_down = (keyboard_check(ord("S")) ? 1 : 0) + (keyboard_check(ord("W")) ? -1 : 0);
 
+if room == rm_tutorial {
+	left_right = (keyboard_check(ord("K")) ? -1 : 0) + (keyboard_check(ord("H")) ? 1 : 0);
+	up_down = (keyboard_check(ord("U")) ? 1 : 0) + (keyboard_check(ord("J")) ? -1 : 0);
+}
+
+
+
 var not_moving = left_right == 0 && up_down == 0;
 
 var magnitude = sqrt(left_right * left_right + up_down * up_down);
@@ -42,6 +49,8 @@ if (health_current <= 0) {
 	instance_destroy(obj_base_usable);
 	instance_destroy(obj_placeable);
 	instance_destroy();
+	
+	
 	
 	// deactivate player
 }

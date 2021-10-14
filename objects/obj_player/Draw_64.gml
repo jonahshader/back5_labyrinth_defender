@@ -20,3 +20,10 @@ draw_set_halign(fa_right);
 draw_set_valign(fa_bottom);
 
 draw_text(view_wport[0] - 10, view_hport[0] - 10, string("Points: ") + string(points_current));
+health_width = health_current/BASE_HEALTH*500;
+
+draw_set_colour($FF00FF00 & $ffffff);
+var l44321FB6_0=($FF00FF00 >> 24);
+draw_set_alpha(l44321FB6_0 / $ff);
+
+draw_rectangle((-health_width/2)+(view_wport[0]/2), 15, (health_width/2)+(view_wport[0]/2), 50, 0);
