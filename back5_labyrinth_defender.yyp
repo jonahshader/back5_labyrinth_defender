@@ -13,6 +13,7 @@
     {"id":{"name":"spr_pistol","path":"sprites/spr_pistol/spr_pistol.yy",},"order":0,},
     {"id":{"name":"spr_ghost","path":"sprites/spr_ghost/spr_ghost.yy",},"order":0,},
     {"id":{"name":"spr_grenade","path":"sprites/spr_grenade/spr_grenade.yy",},"order":0,},
+    {"id":{"name":"obj_bullet_enemy","path":"objects/obj_bullet_enemy/obj_bullet_enemy.yy",},"order":1,},
     {"id":{"name":"obj_tutorial_text","path":"objects/obj_tutorial_text/obj_tutorial_text.yy",},"order":0,},
     {"id":{"name":"spr_explosion","path":"sprites/spr_explosion/spr_explosion.yy",},"order":0,},
     {"id":{"name":"obj_placeable","path":"objects/obj_placeable/obj_placeable.yy",},"order":0,},
