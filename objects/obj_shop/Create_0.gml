@@ -1,0 +1,12 @@
+open = false;
+item_count = 8;
+shop_items = [obj_pistol, obj_shotgun, obj_sniper, obj_machine_gun, obj_missile_launcher, obj_turret_pistol, obj_spikes, obj_grenade];
+costs =      [0,          25,          35,         60,              75,                   70,                70,         15];
+ammo_costs = [1,          2,           3,          2,               8,                    0,                 0,           0];
+placeable = [false,       false,       false,      false,           false,                true,              true,        false];
+throwable = [false,       false,       false,      false,           false,                false,             false,       true];
+available = [false,      true,        true,       true,            true,                 true,              true,         true];
+ref =       [noone,      noone,       noone,      noone,           noone,                noone,             noone,        noone];
+wall_only = [false,      false,       false,      false,           false,                true,              false,        false];
+floor_only =[false,      false,       false,      false,           false,                false,              true,        false];
+center_offset = [false,      false,       false,      false,           false,                false,              false,        false];
