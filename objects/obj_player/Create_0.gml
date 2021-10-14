@@ -28,11 +28,10 @@ health_multiplier = 1;
 /// @DnDHash : 2E071DD0
 /// @DnDInput : 2
 /// @DnDArgument : "expr" "BASE_HEALTH * health_multiplier"
-/// @DnDArgument : "expr_1" "1000"
 /// @DnDArgument : "var" "health_current"
 /// @DnDArgument : "var_1" "points_current"
 health_current = BASE_HEALTH * health_multiplier;
-points_current = 1000;
+points_current = 0;
 
 /// @DnDAction : YoYo Games.Common.Variable
 /// @DnDVersion : 1
