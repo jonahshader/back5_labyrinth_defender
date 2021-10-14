@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_enemy_temp",
-    "path": "sprites/spr_enemy_temp/spr_enemy_temp.yy",
+    "name": "obj_enemy_magenta",
+    "path": "sprites/obj_enemy_magenta/obj_enemy_magenta.yy",
   },
   "solid": false,
   "visible": true,
